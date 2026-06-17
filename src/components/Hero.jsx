@@ -20,7 +20,7 @@ export default function Hero({ scrollToSection }) {
       <section id="home" className="relative pt-24 pb-28 md:pt-36 md:pb-44 bg-gradient-to-br from-slate-900 via-slate-950 to-slate-900 text-white overflow-hidden border-b-8 border-[#2A838E]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center max-w-4xl mx-auto space-y-6">
           <span className="inline-block text-[#2A838E] text-xs font-black tracking-widest uppercase bg-[#2A838E]/10 border border-[#2A838E]/30 px-4 py-2 rounded">
-            // SOLUTIONS & SERVICES
+            SOLUTIONS & SERVICES
           </span>
           <h1 className="text-4xl sm:text-6xl font-black tracking-tight leading-none uppercase">
             Innovative Technology & <span className="text-[#2A838E]">Digital Architecture</span>
