@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import logo from '../src/assets/homemade-degree.png'; // Imported safely here at the root level
 
 // Import our standalone engineering modules
 import TopBar from './components/TopBar';
@@ -11,7 +12,6 @@ import Contact from './components/Contact';
 export default function App() {
   const [searchModalOpen, setSearchModalOpen] = useState(false);
 
-  // Core orchestration scroll function passed down to children
   const scrollToSection = (id) => {
     const element = document.getElementById(id);
     if (element) {
@@ -24,11 +24,12 @@ export default function App() {
       
       <TopBar />
       
-      <Navbar scrollToSection={scrollToSection} setSearchModalOpen={setSearchModalOpen} />
+      {/* Passing logo down as a prop */}
+      <Navbar scrollToSection={scrollToSection} setSearchModalOpen={setSearchModalOpen} logo={logo} />
       
-      <Hero scrollToSection={scrollToSection} />
+      <Hero scrollToSection={scrollToSection} logo={logo} />
       
-      <About />
+      <About logo={logo} />
       
       <Services />
       
