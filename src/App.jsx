@@ -8,6 +8,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Services from './components/Services';
 import Contact from './components/Contact';
+import Team from './components/Team';
 
 export default function App() {
   const [searchModalOpen, setSearchModalOpen] = useState(false);
@@ -32,7 +33,7 @@ export default function App() {
       <About logo={logo} />
       
       <Services />
-      
+       <Team /> 
       <Contact />
 
       {/* Pop-up Global Search Overlay Modal */}

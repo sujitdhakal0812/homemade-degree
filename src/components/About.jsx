@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../assets/homemade-degree.png';
 
+
 export default function About() {
   return (
     <section id="about" className="py-24 bg-white">
@@ -23,7 +24,7 @@ export default function About() {
             </div>
             <div>
               <div className="flex justify-between text-xs font-bold text-slate-900 mb-1.5 uppercase tracking-wide"><span>Mobile Application Platforms</span><span>85%</span></div>
-              <div className="w-full bg-slate-100 h-2 rounded-full overflow-hidden"><div className="bg-slate-900 h-full rounded-full" style={{ width: '85%' }}></div></div>
+              <div className="w-full bg-slate-100 h-2 rounded-full overflow-hidden"><div className="bg-[#2A838E] h-full rounded-full" style={{ width: '85%' }}></div></div>
             </div>
           </div>
         </div>
