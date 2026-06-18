@@ -12,15 +12,15 @@ export default function Contact() {
           <form onSubmit={(e) => e.preventDefault()} className="grid sm:grid-cols-2 gap-6">
             <div className="space-y-1">
               <label className="text-[10px] font-black text-slate-400 uppercase tracking-wider">Your Name</label>
-              <input type="text" className="w-full bg-slate-900 border border-slate-800 rounded px-4 py-3 text-white text-sm focus:outline-none focus:border-[#2A838E] transition" placeholder="Sujit" />
+              <input type="text" className="w-full bg-slate-900 border border-slate-800 rounded px-4 py-3 text-white text-sm focus:outline-none focus:border-[#2A838E] transition placeholder-slate-600" placeholder="Name" />
             </div>
             <div className="space-y-1">
               <label className="text-[10px] font-black text-slate-400 uppercase tracking-wider">Your Email</label>
-              <input type="email" className="w-full bg-slate-900 border border-slate-800 rounded px-4 py-3 text-white text-sm focus:outline-none focus:border-[#2A838E] transition" placeholder="sujit@example.com" />
+              <input type="email" className="w-full bg-slate-900 border border-slate-800 rounded px-4 py-3 text-white text-sm focus:outline-none focus:border-[#2A838E] transition placeholder-slate-600" placeholder="Email" />
             </div>
             <div className="sm:col-span-2 space-y-1">
               <label className="text-[10px] font-black text-slate-400 uppercase tracking-wider">Scope / Specifications</label>
-              <textarea rows="4" className="w-full bg-slate-900 border border-slate-800 rounded px-4 py-3 text-white text-sm focus:outline-none focus:border-[#2A838E] transition" placeholder="Detail your required features..."></textarea>
+              <textarea rows="4" className="w-full bg-slate-900 border border-slate-800 rounded px-4 py-3 text-white text-sm focus:outline-none focus:border-[#2A838E] transition placeholder-slate-600" placeholder="Detail your required features..."></textarea>
             </div>
             <div className="sm:col-span-2 pt-2">
               <button type="submit" className="w-full bg-[#2A838E] hover:bg-[#1f626b] text-white font-bold py-4 rounded tracking-widest transition text-xs shadow-xl uppercase">Submit Ticket</button>
