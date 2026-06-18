@@ -20,7 +20,7 @@ export default function Services() {
       <section id="services" className="py-24 bg-slate-50 border-y border-slate-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-2xl mx-auto mb-16 space-y-2">
-            <span className="text-[#2A838E] font-black uppercase tracking-widest text-xs block">// OUR SERVICES</span>
+            <span className="text-[#2A838E] font-black uppercase tracking-widest text-xs block"> OUR SERVICES</span>
             <h2 className="text-3xl font-black text-slate-900 tracking-tight">Custom Architecture Modules Built From Scratch</h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
@@ -47,7 +47,7 @@ export default function Services() {
       <section id="portfolio" className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-2xl mx-auto mb-12 space-y-2">
-            <span className="text-[#2A838E] font-black uppercase tracking-widest text-xs block">// OUR PORTFOLIO</span>
+            <span className="text-[#2A838E] font-black uppercase tracking-widest text-xs block"> OUR PORTFOLIO</span>
             <h2 className="text-3xl font-black text-slate-900 tracking-tight">Explore Our Latest Tech Solutions</h2>
           </div>
 

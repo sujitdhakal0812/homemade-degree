@@ -5,7 +5,7 @@ export default function Contact() {
     <section id="contact" className="py-24 bg-slate-900 text-white relative">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center max-w-2xl mx-auto mb-12 space-y-2">
-          <span className="text-[#2A838E] font-black uppercase tracking-widest text-xs block">// SERVICE QUOTATION</span>
+          <span className="text-[#2A838E] font-black uppercase tracking-widest text-xs block"> SERVICE QUOTATION</span>
           <h2 className="text-3xl font-black tracking-tight sm:text-4xl">Initialize Your Free Proposal</h2>
         </div>
         <div className="bg-slate-950 p-8 sm:p-12 rounded-3xl border border-slate-800 shadow-2xl">
