@@ -47,9 +47,7 @@ export default function Hero({
           
           {/* Content Unit */}
           <div className="w-full lg:w-7xl text-center lg:text-left space-y-6 order-2 lg:order-1">
-            <span className="inline-block text-[#2A838E] text-[10px] sm:text-xs font-black tracking-widest uppercase bg-[#2A838E]/10 border border-[#2A838E]/30 px-3 py-1.5 sm:px-4 sm:py-2 rounded">
             
-            </span>
             <h1 className="text-3xl sm:text-5xl xl:text-6xl font-black tracking-tight leading-tight uppercase">
               Innovative Technology & <span className="text-[#2A838E]">Digital Architecture</span>
             </h1>
